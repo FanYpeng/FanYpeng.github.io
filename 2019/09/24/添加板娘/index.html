@@ -6,21 +6,23 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>关于hexo deploy 失败的问题解决方案 | Hexo</title>
+  <title>hexo博客的搭建 | Hexo</title>
   <meta name="generator" content="hexo-theme-yilia-plus">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
   <meta name="description" content="记录学习，记录生活。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于hexo deploy 失败的问题解决方案">
-<meta property="og:url" content="http://yoursite.com/2019/09/24/关于hexo deploy 失败的问题解决方案/index.html">
+<meta property="og:title" content="hexo博客的搭建">
+<meta property="og:url" content="http://yoursite.com/2019/09/24/添加板娘/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="记录学习，记录生活。">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-24T06:24:33.713Z">
+<meta property="og:image" content="https://img-blog.csdn.net/20180704100855165?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MjEwNTIz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:updated_time" content="2019-09-23T12:10:41.452Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于hexo deploy 失败的问题解决方案">
+<meta name="twitter:title" content="hexo博客的搭建">
 <meta name="twitter:description" content="记录学习，记录生活。">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20180704100855165?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MjEwNTIz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -170,14 +172,14 @@
               class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-关于hexo deploy 失败的问题解决方案" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-添加板娘" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
   
   
     <h1 class="article-title" itemprop="name">
-      关于hexo deploy 失败的问题解决方案
+      hexo博客的搭建
     </h1>
   
 
@@ -189,8 +191,8 @@
               <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
         </span>
 
-<a href="/2019/09/24/关于hexo deploy 失败的问题解决方案/" class="archive-article-date">
-        <time datetime="2019-09-24T06:14:30.105Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-24</time>
+<a href="/2019/09/24/添加板娘/" class="archive-article-date">
+        <time datetime="2019-09-24T07:02:45.526Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-09-24</time>
 </a>
 
   
@@ -203,7 +205,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">217字</span>
+      <span class="post-count">194字</span>
     </span>
   </span>
 
@@ -225,19 +227,26 @@
     
     <p>记录学习，记录生活。</p>
 <a id="more"></a>
-<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>ssh密钥已添加，但没有权限提交</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">Error: Host key verification failed.</span><br><span class="line">fatal: Could not <span class="built_in">read</span> from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br><span class="line"></span><br><span class="line">    at ChildProcess.&lt;anonymous&gt; (D:\WORKSPACES\itblog\node_modules\hexo-util\lib\spawn.js:37:17)</span><br><span class="line">    at emitTwo (events.js:106:13)</span><br><span class="line">    at ChildProcess.emit (events.js:191:7)</span><br><span class="line">    at ChildProcess.cp.emit (D:\WORKSPACES\itblog\node_modules\cross-spawn\lib\enoent.js:40:29)</span><br><span class="line">    at maybeClose (internal/child_process.js:877:16)</span><br><span class="line">    at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)</span><br><span class="line">FATAL Host key verification failed.</span><br><span class="line">fatal: Could not <span class="built_in">read</span> from remote repository.</span><br></pre></td></tr></table></figure>
+<h1 id="方法步骤如下"><a href="#方法步骤如下" class="headerlink" title="方法步骤如下"></a>方法步骤如下</h1><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>安装Node.js，Git 以及注册一个github账号<br>安装cnpm,命令如下</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm i -g cnpm --registry=htttps://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
 
-<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>新增个人公钥（部署公钥）</p>
-<ol>
-<li>如何生成ssh公钥</li>
-</ol>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"xxxx@xxx.com"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Generating public/private rsa key pair...</span></span><br><span class="line"><span class="comment"># 三次回车即可生成 ssh key</span></span><br></pre></td></tr></table></figure>
+<h2 id="下载hexo框架"><a href="#下载hexo框架" class="headerlink" title="下载hexo框架"></a>下载hexo框架</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
-<p>查看你的public key，并把他添加到 Git @ OSC SSH key添加地址</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br><span class="line"><span class="comment"># ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6eNtGpNGwstc....</span></span><br></pre></td></tr></table></figure>
+<h2 id="创建一个目录用于存放博客相关文件"><a href="#创建一个目录用于存放博客相关文件" class="headerlink" title="创建一个目录用于存放博客相关文件"></a>创建一个目录用于存放博客相关文件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir blog</span><br></pre></td></tr></table></figure>
 
-<p>然后把生成的公钥添加到github上就可以重新进行部署了。</p>
+<p>并在blog这个目录下生成hexo</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
+
+<h2 id="把博客部署到github仓库"><a href="#把博客部署到github仓库" class="headerlink" title="把博客部署到github仓库"></a>把博客部署到github仓库</h2><p>首先我们要在github上创建一个仓库,然后下载deploy插件</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h2 id="部署到github前的配置"><a href="#部署到github前的配置" class="headerlink" title="部署到github前的配置"></a>部署到github前的配置</h2><p>打开bolg/_config.yml文件在#deployment下添加如下代码</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">type</span>： git</span><br><span class="line">repo： <span class="string">"github仓库生成的ssh地址"</span></span><br><span class="line">branch： master</span><br></pre></td></tr></table></figure>
+
+<p>保存退出</p>
+<h2 id="部署到github"><a href="#部署到github" class="headerlink" title="部署到github"></a>部署到github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>
+
+<p>然后浏览器直接访问github仓库目录如<a href="https://fanypeng.gitgub.io，效果如下：" target="_blank" rel="noopener">https://fanypeng.gitgub.io，效果如下：</a><br><img src="https://img-blog.csdn.net/20180704100855165?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3MjEwNTIz/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt></p>
 
     
 
@@ -252,7 +261,7 @@
         </li>
         <li>
           <strong>本文链接：</strong>
-          <a href="http://yoursite.com/2019/09/24/关于hexo deploy 失败的问题解决方案/" title="关于hexo deploy 失败的问题解决方案" target="_blank">http://yoursite.com/2019/09/24/关于hexo deploy 失败的问题解决方案/</a>
+          <a href="http://yoursite.com/2019/09/24/添加板娘/" title="hexo博客的搭建" target="_blank">http://yoursite.com/2019/09/24/添加板娘/</a>
         </li>
         <li>
           <strong>版权声明： </strong>
@@ -316,7 +325,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-     <!-- <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2019/09/24/关于hexo deploy 失败的问题解决方案/" alt="微信分享二维码"> -->
+     <!-- <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://yoursite.com/2019/09/24/添加板娘/" alt="微信分享二维码"> -->
     </div>
 </div>
 
@@ -331,18 +340,9 @@
 
 <nav id="article-nav">
   
-    <a href="/2019/09/24/添加板娘/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          hexo博客的搭建
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/09/23/hexo博客的搭建/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">hexo博客的搭建</div>
+    <a href="/2019/09/24/关于hexo deploy 失败的问题解决方案/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">关于hexo deploy 失败的问题解决方案</div>
       <i class="icon-circle-right"></i>
     </a>
   
