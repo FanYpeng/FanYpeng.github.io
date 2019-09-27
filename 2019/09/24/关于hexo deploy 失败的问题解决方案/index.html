@@ -49,7 +49,10 @@
 
 
   
-
+  
+    <link rel="stylesheet" href="/lib/gitalk/gitalk.css">
+    <script src="/lib/gitalk/gitalk.min.js"></script>
+  
 </head>
 
 <body>
@@ -372,6 +375,23 @@
 
 
 
+  <div class="gitalk">
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        const gitalk = new Gitalk({
+            clientID: '088761472104e4b52f2b',
+            clientSecret: '514daa027685b4d25c9e2197fecc4db48e255c88',
+            repo: 'bloglssues',
+            owner: 'FanYpeng',
+            admin: ['FanYpeng'],
+            id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+            distractionFreeMode: false  // Facebook-like distraction free mode
+        })
+ 
+        gitalk.render('gitalk-container')
+    </script>
+</div>
+  
           </div>
         </div>
       </div>
