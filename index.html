@@ -275,37 +275,10 @@
   
   <div class="article-entry" itemprop="articleBody">
     
-    <a id="more"></a>
-<h2 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h2><p>第一步当然是安装相应的软件和配置好环境。需要安装的软件有Node.js和Git,去官网下载安装即可。</p>
-<p>当Node.js和Git都安装好后就可以正式安装Hexo了，终端执行如下命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm install -g hexo</span><br></pre></td></tr></table></figure>
-
-<p>终端cd到一个你选定的目录，执行hexo init初始化命令：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br></pre></td></tr></table></figure>
-
-<p>终端cd到目录下，安装npm</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<p>此时开启hexo服务就可以在本地（本地预览地址<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> ）预览博客主页了</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> your-hexo-site</span><br><span class="line">git <span class="built_in">clone</span> https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-
-<h2 id="拷贝文件"><a href="#拷贝文件" class="headerlink" title="拷贝文件"></a>拷贝文件</h2><p>拷贝原来搭建好的博客的站点配置文件和主题配置文件_config.yml并在对应的配置目录下做替换。</p>
-<p>如何还有其他修改过的配置文件，也一并替换掉。比如我的主题目录下layout/_partials/header.swig就有部分修改，因而需要替换。</p>
-<p>最重要的是拷贝并替换数据文件，即站点更目录下的source文件夹，所有博文的原始文件都在这个目录下。</p>
-<h2 id="安装RSS插件"><a href="#安装RSS插件" class="headerlink" title="安装RSS插件"></a>安装RSS插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
-
-<h2 id="安装git插件"><a href="#安装git插件" class="headerlink" title="安装git插件"></a>安装git插件</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><p>执行如下命令就可以预览博客了。</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
-
-<p>最后要部属到远程服务器，如github或coding上，别忘了在新电脑上生成ssh公钥，并注册到远程服务器。</p>
-<p>PS: 为了兼容coding，需要在source文件夹下touch一个空的文件：Staticfile.</p>
-<p>因为博客同时部署到github和coding两个平台，但配置文件里智能配置一个root路径，所以生成的sitemap.xml或者baidu-sitemap.xml中有一个网站的路径是错误的，需要在部署之前手动修改。</p>
-<p>博客预览效果没问题的话，就可以部属到远程服务器了。</p>
-
+    <p>关于hexo博客迁移流程</p>
+    
+    <a class="article-more-a" href="/2019/10/08/hexo博客迁移流程/#more">more >></a>
+    
     
 
     
