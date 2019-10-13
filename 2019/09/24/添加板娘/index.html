@@ -17,7 +17,7 @@
 <meta property="og:site_name" content="FanYpeng的个人博客">
 <meta property="og:description" content="给博客添加一个板娘">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-24T07:17:25.681Z">
+<meta property="og:updated_time" content="2019-10-13T05:44:47.417Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="添加板娘">
 <meta name="twitter:description" content="给博客添加一个板娘">
@@ -196,7 +196,7 @@
       <!-- 百度字体平台:http://fontstore.baidu.com/static/editor/index.html -->
       <i class="icon-statistics"></i>
       <span class="post-meta-item-text"> 字数统计:</span>
-      <span class="post-count">152字</span>
+      <span class="post-count">174字</span>
     </span>
   </span>
 
@@ -221,7 +221,7 @@
 <h1 id="方法步骤如下"><a href="#方法步骤如下" class="headerlink" title="方法步骤如下"></a>方法步骤如下</h1><h2 id="安装hexo-helper-live2d"><a href="#安装hexo-helper-live2d" class="headerlink" title="安装hexo-helper-live2d"></a>安装hexo-helper-live2d</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-helper-live2d --save</span><br></pre></td></tr></table></figure>
 
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>打开根目录下的_config.yml文件添加以下代码：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span></span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-z16</span><br><span class="line">  display:</span><br><span class="line">    position: left</span><br><span class="line">    width: 100</span><br><span class="line">    height: 200</span><br><span class="line">    hOffset: -10</span><br><span class="line">    vOffset: 40</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  <span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">  scriptFrom: <span class="built_in">local</span>         //脚本来源</span><br><span class="line">  pluginRootPath: live2dw/  //插件根目录路径</span><br><span class="line">  pluginJsPath: lib/	    //Js插件路径 </span><br><span class="line">  pluginModelPath: assets/  //插件模型路径</span><br><span class="line">  tagMode: <span class="literal">false</span></span><br><span class="line">  <span class="built_in">log</span>: <span class="literal">false</span></span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-z16</span><br><span class="line">  display:</span><br><span class="line">    position: left</span><br><span class="line">    width: 100</span><br><span class="line">    height: 200</span><br><span class="line">    hOffset: -10</span><br><span class="line">    vOffset: 40</span><br><span class="line">  mobile:</span><br><span class="line">    show: <span class="literal">false</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="live2D模型预览"><a href="#live2D模型预览" class="headerlink" title="live2D模型预览"></a>live2D模型预览</h2><p><a href="https://blog.csdn.net/u012931864/article/details/83054822" target="_blank" rel="noopener">https://blog.csdn.net/u012931864/article/details/83054822</a></p>
 <p>把github模型下载到本地，解压后将assets目录拷贝到博客根目录中的live2d_models（自己新建，文件名不可改）里，再修改_config.yml 里的live2d中model.use即可（改为live2d_models中的模型名字就行）。</p>
